@@ -41,5 +41,14 @@ body{
 .task{
     display: flex;
     justify-content: space-between;
-    padding: 1em;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    position: relative;
+    padding: 1rem;
+}
+
+.task-done{
+    text-decoration: line-through;
+    background-color: lightgray;
+    transition: 0.5s;
 }
